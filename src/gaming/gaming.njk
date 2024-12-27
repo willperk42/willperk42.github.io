@@ -1,0 +1,22 @@
+---
+layout: /layouts/gaming/gaming.njk
+---
+
+
+{% for post in collections.gaming %}
+<section>
+    <nav>
+        <li>
+            <a href="{{post.url}}" class="contrast">
+            <img src=" {{ post.data.titlePicture }}">
+            <br>
+            <h2>{{ post.data.title }}</h2>
+            <br>
+            <p>{{ post.data.body }}</p>
+            <br>
+            </a>
+        </li>
+    </nav>
+    </section>
+
+{% endfor %}

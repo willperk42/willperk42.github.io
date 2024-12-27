@@ -1,0 +1,29 @@
+{% block navbar %}
+<header>
+    <nav>
+        <ul>
+            <li><a href="/index" class="contrast"><strong>Guide and tips</strong></a></li>
+        </ul>
+        <ul>
+            {% if current_page == "gaming" %}
+            <li><a href="/gaming"><button class="secondary">Video games</button></a></li>
+            {% else %}
+            <li><a href="/gaming">Video games</a></li>
+            {% endif %}
+
+            {% if current_page == "programming" %}
+            <li><a href="/programming"><button class="secondary">Programming</button></a></li>
+            {% else %}
+            <li><a href="/programming">Programming</a></li>
+            {% endif %}
+
+            {% if current_page == "productivityOthers" %}
+            <li><a href="/productivityOthers"><button class="secondary">Productivity/Others</button></a></li>
+            {% else %}
+            <li><a href="/productivityOthers">Productivity/Others</a></li>
+            {% endif %}
+            
+        </ul>
+    </nav>
+</header>
+{% endblock %}

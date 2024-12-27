@@ -1,0 +1,46 @@
+---
+layout: /layouts/index.njk
+---
+
+Primary index section
+<br>
+<br>
+<br>
+
+<main>
+
+<p>=== Last guide video games ===</p>
+{% set latest_gaming_posts = collections.gaming[collections.gaming.length - 1] %}
+<section>
+    <nav>
+        <li>
+            <a href="{{latest_gaming_posts.url}}" class="contrast">
+            <img src="{{ latest_gaming_posts.data.titlePicture }}">
+            <br>
+            <h3>{{ latest_gaming_posts.data.title }}</h3>
+            <br>
+            <p>{{ latest_gaming_posts.data.body }}</p>
+            <br>
+            </a>
+        </li>
+    </nav>
+</section>
+
+<p>=== Last guide programming ===</p>
+{% set latest_programming_posts = collections.programming[collections.programming.length - 1] %}
+<section>
+    <nav>
+        <li>
+            <a href="{{latest_programming_posts.url}}" class="contrast">
+            <img src="{{ latest_programming_posts.data.titlePicture }}">
+            <br>
+            <h3>{{ latest_programming_posts.data.title }}</h3>
+            <br>
+            <p>{{ latest_programming_posts.data.body }}</p>
+            <br>
+            </a>
+        </li>
+    </nav>
+</section>
+
+</main>

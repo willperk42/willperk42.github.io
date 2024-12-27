@@ -1,0 +1,14 @@
+<script src="nunjucks.js"></script>
+<link rel="stylesheet" href="bundle.css">
+
+<body class="container">
+    {% set current_page = "index" %}
+    {% include 'components/header.njk' %}
+
+    <main>
+        {{ content | safe  }}
+    </main>
+
+    {% include "components/footer.njk" %}
+
+</body>
