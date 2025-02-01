@@ -2,7 +2,11 @@
 <header>
     <nav>
         <ul>
-            <li><a href="/index" class="contrast"><strong>Guide and tips</strong></a></li>
+            {% if current_page == "index" %}
+            <li><a href="/index"><button class="secondary"><strong>Main menu</strong></button></a></li>
+            {% else %}
+            <li><a href="/index"><strong>Main menu</strong></a></li>
+            {% endif %}
         </ul>
         <ul>
             {% if current_page == "gaming" %}

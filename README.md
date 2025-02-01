@@ -15,19 +15,20 @@ Use the command :
 
 # TODO
 
-> Add minor section for each specific category.
+priority :
+
+> Add a subsection for each specific category.
 
 > Have a side navigation for in-page research.
 
-> Minification of files.
+> Have a "go back" button on specific guides.
 
-> Change section name "cheat sheet" and basic idea...
+todo one day (which mean never) :
+
+> Minification of files.
 
 > Have a button to change dark/light mode.
 
-> Create sub-section (bellow video games / programming) for more specific guides.
+> Better image management? (have them next to each specific page in the directory?)
 
-> Have a "go back" button on specific guides.
-
-> Better image management (have them next to each specific page on the directory?)
-
+> Add a language French version.

@@ -1,10 +1,8 @@
 ---
-title: Heavy weapons guide
-body: "What heavy weapon should i use."
+title: Meta loadout for every faction and playstyle.
 tags: gaming
-titlePicture: "/img/helldivers2/aze.webp"
 layout: /layouts/gaming/gaming.njk
 date: 2024-02-01
 ---
 
-un simple guide pour savoir quelles armes lourdes choisir.
+template

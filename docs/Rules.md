@@ -1,3 +1,8 @@
+# git commit
+
+Use the conventional commits guidelines.
+https://www.conventionalcommits.org/en/v1.0.0/
+
 # Variables names
 
 Variables name are in **camelCase**
